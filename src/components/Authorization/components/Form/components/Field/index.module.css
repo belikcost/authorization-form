@@ -17,7 +17,8 @@
   transition: border var(--transition);
 }
 
-.input:focus, .input:active {
+.input:focus,
+.input:active {
   border: 1px solid var(--fields-active-border-color);
   outline: none;
 }
