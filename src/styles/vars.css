@@ -1,0 +1,14 @@
+:root {
+    --white-color: #fff;
+    --error-color: #EB4F7F;
+
+    --modals-border-color: #D3D3D3;
+    --fields-border-color: #C3C3C3;
+    --fields-active-border-color: #4FB1EB;
+
+    --button-primary-background: #4FB1EB;
+    --button-primary-active-background: #199be6;
+
+    --transition: 0.3s;
+    --modals-shadow: 0 3px 6px rgba(0,0,0,0.2);
+}

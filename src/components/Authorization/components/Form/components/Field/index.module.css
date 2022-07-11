@@ -1,0 +1,34 @@
+.field {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.label {
+  font-size: 0.75rem;
+  opacity: 0.6;
+  margin-bottom: 0.25rem;
+}
+
+.input {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  border: 1px solid var(--fields-border-color);
+  transition: border var(--transition);
+}
+
+.input:focus, .input:active {
+  border: 1px solid var(--fields-active-border-color);
+  outline: none;
+}
+
+.hasError {
+  border-color: var(--error-color);
+}
+
+.error {
+  position: absolute;
+  bottom: -12px;
+  font-size: 0.65rem;
+  color: var(--error-color);
+}

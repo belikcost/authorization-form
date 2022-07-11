@@ -1,0 +1,21 @@
+.button {
+  background-color: var(--button-primary-background);
+  border: none;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  color: var(--white-color);
+  padding: 0.5rem 1rem;
+}
+
+.button:active {
+  background-color: var(--button-primary-active-background);
+}
+
+.button:active, .button:focus {
+  outline: none;
+}
+
+.button:disabled {
+  opacity: 0.5;
+}
